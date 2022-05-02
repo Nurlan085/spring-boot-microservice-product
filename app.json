@@ -1,5 +1,5 @@
 {
-  "name": "microservice-product",
+  "name": "microservice-product1",
   "buildpacks": [
     {
       "url": "heroku/gradle"
