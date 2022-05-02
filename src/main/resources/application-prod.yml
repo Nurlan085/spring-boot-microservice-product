@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: ${DATABASE_URL}
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  security:
+    user:
+      name: ${SECURE_KEY_USERNAME}
+      password: ${SECURE_KEY_PASSWORD}
+
+
+
