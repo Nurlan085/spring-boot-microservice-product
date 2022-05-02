@@ -6,7 +6,7 @@ import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.PropertySource;
 
 @SpringBootApplication
-@PropertySource("classpath:application-${spring.profiles.active:prod}.yml")
+@PropertySource("classpath:application-${spring.profiles.active:default}.yml")
 public class MicroserviceProductApplication {
 
 	public static void main(String[] args) {
