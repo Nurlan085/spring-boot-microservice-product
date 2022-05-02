@@ -23,6 +23,7 @@ public class Product {
     @Column(name = "name", length = 100)
     private String name;
 
+    //a
     @Column(name = "price")
     private Double price;
 
